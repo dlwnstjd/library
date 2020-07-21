@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<decorators defaultdir="/layout">
+	<decorator name="member" page="mainlayout.jsp">
+		<pattern>/project/member/*</pattern>
+		<pattern>/project/book/*</pattern>
+	</decorator>
+	<excludes>
+		<pattern>/project/member/id*</pattern>
+		<pattern>/project/member/pw*</pattern>
+		<pattern>/project/member/picture*</pattern>
+		<pattern>/project/member/password*</pattern>
+		<pattern>/project/ajax/*</pattern>
+	</excludes>
+</decorators>
